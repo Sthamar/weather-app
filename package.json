@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Sthamar/weather-app.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

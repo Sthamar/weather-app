@@ -2,13 +2,15 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Weather.css";
 
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 const Weather = () =>{
     const [city, setCity] = useState('Kathmandu');
     const [weather, setWeather] = useState(null);
     const [unit, setUnit] = useState('metric');
     const [darkMode, setDarkMode] = useState(false);
 
-    const API_KEY = 'a7e4ba2f18a7b0ba3dad88cf255340d0';
+    
 
 
     useEffect(() =>{
